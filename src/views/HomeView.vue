@@ -5,4 +5,9 @@
 </template>
 
 <script setup lang="ts">
+import {onMounted} from "vue"
+
+onMounted(async ()=>{
+  console.log("hello")
+})
 </script>
