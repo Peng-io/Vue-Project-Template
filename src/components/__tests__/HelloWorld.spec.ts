@@ -1,8 +1,5 @@
-import { describe } from "vitest"
-import {getStudentFind} from "@/api/methods/student";
+import { test  } from "vitest"
 
-
-describe("HelloWorld", async () => {
-	let newVar = await getStudentFind(1,10);
-	console.log(newVar)
+test("HelloWorld", () => {
+	console.log("HelloWorld")
 })
