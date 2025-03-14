@@ -1,7 +1,7 @@
 import { createAlova } from "alova"
 import { axiosRequestAdapter } from "@alova/adapter-axios"
 
-export const alovaInst = createAlova({
+export const http:any = createAlova({
 	baseURL: "/api",
 	requestAdapter: axiosRequestAdapter(),
 	beforeRequest(method) {
