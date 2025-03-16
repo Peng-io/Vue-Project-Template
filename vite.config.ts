@@ -47,6 +47,6 @@ export default defineConfig({
 		chunkSizeWarningLimit: 2000,
 		cssCodeSplit: true, //css 拆分
 		sourcemap: false, //不生成sourcemap
-		assetsInlineLimit: 5000 //小于该值 图片将打包成Base64
+		assetsInlineLimit: 0 //小于该值 图片将打包成Base64 0不打成Base64
 	}
 })
